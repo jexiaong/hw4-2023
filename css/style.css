@@ -99,8 +99,6 @@ footer{
   }
 }
 
-
-
 /*Your Code Here*/
 /* PLEASE DO NOT REMOVE MY COMMENTS.  THEY HELP US HELP YOU DEBUG. */
 
@@ -115,17 +113,16 @@ nav li:focus{
 }
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
-.skip{
+.skip a{
   position: absolute;
   top: -40px;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
-.skip:focus{
+.skip a:focus{
   position: absolute;
   top: 20px;
 }  
-/* CHECK THIS */
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 :focus{
@@ -148,8 +145,6 @@ main div:nth-child(1){
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: red;
-  /* what is parallax and non-repeating mean */
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
@@ -184,7 +179,6 @@ main div:nth-child(1){
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block{
   text-align: center;
-  /* FIGURE OUT HOW TO CENTER VERT AND HORIZ? NO CHANGE ON WEBSITE */
 }
 
 .container{
@@ -198,7 +192,6 @@ main div:nth-child(1){
   nav{
     text-align: right;
     padding: 30px 0px 30px 0px; 
-    /* PADDING ISNT WORKING? NOTHING CHANGED */
   }
   
    /* Step 10: Write the selector/rule property to update the .container class */
