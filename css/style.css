@@ -108,7 +108,7 @@ nav li:hover{
   text-decoration: underline;
 }
 
-nav li:focus{
+nav li a:focus{
   text-decoration: underline;
 }
 
