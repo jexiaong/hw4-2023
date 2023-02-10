@@ -144,11 +144,11 @@ first div in the grid  and place it in the grid. */
 main div:nth-child(1){
   grid-column: 1/-1;
   background-image: url("/images/header.jpg");
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: red;
   /* what is parallax and non-repeating mean */
 }
 
